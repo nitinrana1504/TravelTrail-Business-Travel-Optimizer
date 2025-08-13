@@ -42,8 +42,15 @@ It uses the **Amadeus Travel API** to fetch real-time flight and hotel data, the
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/nitinrana1504/TravelTrail-Business-Travel-Optimizer.git
-cd TravelTrail-Business-Travel-Optimizer
+cd TravelTrail-Business-Travel-Optimizer ```
 
 ---
-## Set Environment Variables
-```
+
+### 2️⃣ Set Environment Variables
+
+Create a `.env` file in the project root directory and add your Amadeus API credentials:
+
+```env
+AMADEUS_CLIENT_ID=your_client_id_here
+AMADEUS_CLIENT_SECRET=your_client_secret_here
+
