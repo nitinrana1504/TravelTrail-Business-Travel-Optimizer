@@ -40,17 +40,25 @@ It uses the **Amadeus Travel API** to fetch real-time flight and hotel data, the
 ## 🚀 Installation & Setup
 
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/nitinrana1504/TravelTrail-Business-Travel-Optimizer.git
-cd TravelTrail-Business-Travel-Optimizer ```
+
+cd TravelTrail-Business-Travel-Optimizer
 
 ---
 
-### 2️⃣ Set Environment Variables
-
-Create a `.env` file in the project root directory and add your Amadeus API credentials:
-
-```env
+### 2️⃣  Set Up Environment Variables
+Create a file named `.env` in the project folder and add:
 AMADEUS_CLIENT_ID=your_client_id_here
+
 AMADEUS_CLIENT_SECRET=your_client_secret_here
+
+---
+
+
+### 3️⃣ Run the Application
+```bash
+streamlit run app.py
+
+
+
 
